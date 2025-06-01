@@ -17,7 +17,7 @@ import { Alert, AlertDescription } from "@/components/ui/alert"
 export default function ProfilePage() {
   const [profileData, setProfileData] = useState({
     fullName: "Elnora Aminova",
-    email: "aminovaelnora02@gmail.com",
+    email: "aminovaelnora02@gmailsdf.com",
     phone: "+998 90 123 45 67",
     position: "Bosh administrator",
     bio: "Kiyim-kechak do'koni ERP tizimining bosh administratori. Tizimni boshqarish va nazorat qilish vazifalarini bajaradi.",

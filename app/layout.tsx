@@ -1,14 +1,18 @@
 import type React from "react"
 import type { Metadata } from "next/types"
-import { Inter } from "next/font/google"
+import { Montserrat } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 
-const inter = Inter({ subsets: ["latin"] })
+const montserrat = Montserrat({ 
+  weight: ['400', '500', '600', '700'],
+  subsets: ["latin"],
+  display: 'swap'
+})
 
 export const metadata: Metadata = {
-  title: "Kiyim-Kechak ERP",
-  description: "Kiyim-kechak do'koni uchun ERP tizimi",
+  title: "Makhi's Clothing",
+  description: "Makhi's Clothing Management System",
     generator: 'v0.dev'
 }
 
@@ -19,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="uz" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={montserrat.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           {children}
         </ThemeProvider>

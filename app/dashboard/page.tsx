@@ -9,7 +9,7 @@ export default function DashboardPage() {
       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
         <div>
           <h1 className="text-2xl font-bold">Boshqaruv paneli</h1>
-          <p className="text-muted-foreground">Kiyim-kechak do&apos;koni ERP tizimi</p>
+          <p className="text-muted-foreground">Kiyim-kechak do&apos;koni WMS tizimi</p>
         </div>
         <div className="flex gap-2">
           <Button variant="outline" size="sm">

@@ -110,7 +110,7 @@ export default function DashboardLayout({
           <div className="h-8 w-8 rounded-md bg-primary flex items-center justify-center">
             <span className="text-primary-foreground font-bold">K</span>
           </div>
-          <h1 className="text-xl font-bold">Kiyim-Kechak</h1>
+          <h1 className="text-xl font-bold">Clothes</h1>
         </div>
 
         <div className="flex-1 overflow-auto py-2 px-3">
@@ -171,7 +171,7 @@ export default function DashboardLayout({
             <div className="h-8 w-8 rounded-md bg-primary flex items-center justify-center">
               <span className="text-primary-foreground font-bold">K</span>
             </div>
-            <h1 className="text-xl font-bold">Kiyim-Kechak</h1>
+            <h1 className="text-xl font-bold">Clothes</h1>
           </div>
           <Button variant="ghost" size="sm" onClick={() => setMobileMenuOpen(false)}>
             <X className="h-5 w-5" />

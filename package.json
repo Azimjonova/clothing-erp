@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "qilin": "NODE_OPTIONS=--openssl-legacy-provider qilin dev"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
@@ -48,6 +49,7 @@
     "lucide-react": "^0.454.0",
     "next": "15.2.4",
     "next-themes": "latest",
+    "qilin": "^0.3.18",
     "react": "^19",
     "react-day-picker": "8.10.1",
     "react-dom": "^19",
